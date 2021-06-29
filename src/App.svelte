@@ -1,8 +1,8 @@
 <script>
-  import HeroDetail from './HeroDetail.svelte';
+  // import HeroDetail from './HeroDetail.svelte';
   import HeroesList from './HeroesList.svelte';
 
-  export let name;
+  export let name = 'World';
   let hero = { name: 'Landon', birth_year: '1917' };
   const heroes = [
     { id: 10, name: 'John', birth_year: '1999' },
